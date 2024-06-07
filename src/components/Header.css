@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  max-height: 20px;
+  margin: 10px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  padding-left: 300px;
+}
+.search-bar {
+  border-color: #ffffff;
+  height: 30px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.header-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: space-between;
+  padding-left: 20%;
+}
+
+.cart {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.shop {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.more {
+  padding-left: 20px;
+  padding-right: 20px;
+}
