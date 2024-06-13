@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 40px;
+}
+
+.image {
+  width: 140px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  justify-content: space-evenly;
+}
+
+.list > p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
